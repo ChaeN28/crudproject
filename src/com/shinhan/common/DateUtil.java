@@ -7,6 +7,7 @@ import java.util.Date;
 public class DateUtil {
 
 	// date -> String
+	// 얍얍
 	public static String converToString(Date d1) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyy-MM-dd HH:mm:ss");
 		String str = sdf.format(d1); //날짜->문자 
